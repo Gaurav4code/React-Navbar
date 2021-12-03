@@ -1,0 +1,15 @@
+#{
+    font-family:poppins;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-box {
+  display: flex;
+}
+.nav-links {
+  list-style: none;
+  padding: 30px 40px;
+}
