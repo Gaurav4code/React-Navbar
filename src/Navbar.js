@@ -1,19 +1,34 @@
 import React from "react";
+import logo from "./Images/logo.png";
 
 import "../src/Navbar.css";
 const Navbar = () => {
   return (
     <>
-      <div className="head">
-        <div className="logo">Logo</div>
-        <div className="navbar">
-          <ul className="nav-box">
-            <li className="nav-links">Home</li>
-            <li className="nav-links">About</li>
-            <li className="nav-links">Services</li>
-          </ul>
-        </div>
-      </div>
+      <Nav>
+        <NavLinks to="/">
+          <h1>Logo</h1>
+        </NavLinks>
+        <NavMenu>
+          <NavLinks to="/about" activeStyle>
+            About
+          </NavLinks>
+
+          <NavLinks to="/services" activeStyle>
+            Services
+          </NavLinks>
+          <NavLinks to="/contact-us" activeStyle>
+            Contact Us
+          </NavLinks>
+
+          <NavLinks to="/sign-up" activeStyle>
+            Sign Up
+          </NavLinks>
+        </NavMenu>
+        <NavBtn>
+          <NavBtnLink to="/signin">Sign In</NavBtnLink>
+        </NavBtn>
+      </Nav>
     </>
   );
 };
