@@ -1,0 +1,23 @@
+.container {
+  background: linear-gradient(45deg, seagreen, skyblue);
+}
+.fluid-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-bar {
+  display: flex;
+}
+
+.nav-link {
+  color: white;
+  font-family: Poppins;
+  padding: 20px 20px;
+  list-style: none;
+  text-decoration: none;
+  font-weight: bolder;
+}
+.nav-link a {
+  text-decoration: none;
+}
