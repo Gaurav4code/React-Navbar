@@ -1,0 +1,37 @@
+.conatiner {
+}
+.fluid-container {
+  display: flex;
+}
+.nav-menu {
+  display: flex;
+  margin: 40px 0px;
+}
+
+.nav-list {
+  display: flex;
+}
+.nav-links {
+  display: flex;
+  font-size: 18px;
+  padding: 20px 30px;
+  margin: 0px 30px;
+}
+.auth-container {
+  background-color: rgb(8, 66, 189);
+}
+
+.btn {
+  margin-top: 20px;
+  border: solid rgb(12, 158, 207) 2px;
+  padding: 0.9rem 1.5rem;
+  font-size: 15px;
+  font-weight: bolder;
+}
+.btn-1 {
+  border-radius: 30px;
+  background-color: rgb(60, 158, 207);
+}
+.btn-1:hover {
+  background: transparent;
+}
